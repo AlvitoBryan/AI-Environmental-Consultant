@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Konsultan Lingkungan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="chat-container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="new-chat">
+        <button id="newChat">
+          <i class="fas fa-plus"></i>
+          Chat Baru
+        </button>
+      </div>
+      <div class="history">
+        <!-- Chat history will be added here -->
+      </div>
+    </div>
+
+    <!-- Main chat area -->
+    <div class="main-content">
+      <!-- Header -->
+      <div class="chat-header">
+        <h1>AI Konsultan Lingkungan</h1>
+        <p>Powered by Gemini AI</p>
+      </div>
+
+      <!-- Messages container -->
+      <div class="messages" id="output">
+        <!-- Welcome message will be added by JavaScript -->
+      </div>
+
+      <!-- Input area -->
+      <div class="input-container">
+        <form class="input-form">
+          <textarea 
+            name="prompt" 
+            id="prompt" 
+            placeholder="Tanyakan tentang pengolahan sampah dan lingkungan..."
+            rows="1"
+          ></textarea>
+          <button type="submit">
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+        <p class="disclaimer">AI Konsultan Lingkungan dapat memberikan informasi yang tidak akurat. Pertimbangkan untuk memverifikasi informasi penting.</p>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
