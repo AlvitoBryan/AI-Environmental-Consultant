@@ -5,7 +5,7 @@ export function maybeShowApiKeyBanner(key, action = `enter it at the top of
     banner.className = 'api-key-banner';
     banner.innerHTML = `
       To get started with the Gemini API,
-      <a href="https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCNwsfjYS2hxa0dp6UoVZRtvteeYzIZBe8" target="_blank">
+      <a href="https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyAdzIqX7BKHOP5aOPBETobUGuZpq5RHYnE" target="_blank">
       get an API key</a> (Ctrl+Click) and ${action}`;
     document.body.prepend(banner);
   }
