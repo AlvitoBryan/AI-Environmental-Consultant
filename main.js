@@ -2,7 +2,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import MarkdownIt from 'markdown-it';
 import './style.css';
 
-const API_KEY = 'AIzaSyAdzIqX7BKHOP5aOPBETobUGuZpq5RHYnE';
+const API_KEY = 'GEMINI_API_KEY';
 const md = new MarkdownIt();
 
 // DOM Elements
